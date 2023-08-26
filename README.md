@@ -12,11 +12,8 @@ The project utilizes the provided `SimpleModel` class to manage the game's state
 - **MVC Architecture**: The project follows the MVC architecture, ensuring clear separation between the model (game logic), view (GUI), and controller (user input handling).
 
 - **Standard GUI Elements**: The GUI is created using standard Swing and AWT GUI classes, providing a familiar and user-friendly interface for players.
- 
-- **Modular Design**: The classes are designed to be modular and reusable, allowing for easy testing and future enhancements. The project demonstrates understanding of object-oriented principles, object instantiation, and referencing.
-  - **Compatibility**: The game is designed to be versatile, allowing interchangeable use of different controllers and views due to the dynamic main function.
 
-- **Game Play** - 
+- **Game Play**: 
   - **Player Interaction**: Players place their pieces on the board by clicking on the available cells during their turns. The controller ensures that only valid moves are enforced, and the game alternates between the players.
 
   - **Piece Flipping**: When a player makes a move, the pieces of the opponent's color that are trapped between the new piece and existing pieces of the player's color are automatically flipped to the player's color.
@@ -26,6 +23,9 @@ The project utilizes the provided `SimpleModel` class to manage the game's state
   - **Initial State**: The game starts with a predefined initial state, where four pieces are already played, mimicking the traditional starting position of Reversi.
 
   - **Greedy AI**: An additional feature is the implementation of a simple 'greedy' AI, allowing players to play against the computer. The AI makes decisions based on maximizing the number of pieces it can flip in a single move.
+ 
+- **Modular Design**: The classes are designed to be modular and reusable, allowing for easy testing and future enhancements. The project demonstrates understanding of object-oriented principles, object instantiation, and referencing.
+  - **Compatibility**: The game is designed to be versatile, allowing interchangeable use of different controllers and views due to the dynamic main function.
 
 
 
