@@ -1,4 +1,4 @@
-# Othello game in Java
+# Othello Game in Java
 A fully functional graphical implementation of the classic board game, Othello/Reversi, using Java Swing. This Object Oriented project adheres to the Model-View-Controller (MVC) architecture to ensure separation of concerns and modularity. The game provides a graphical user interface (GUI) that allows players to interact with the game board, make moves, and compete against each other or an AI opponent.
 ### GUIView Class
 The ```GUIView``` class, a subclass of the interface ```IView```, is responsible for displaying the game board and managing user interactions through the graphical interface. It displays the Reversi board with initial pieces already played; players can place their pieces during their turns, and the GUI automatically updates the colors of captured pieces. The class interacts with the ```SimpleModel``` and ```SimpleController``` classes through ```IView``` methods, maintaining separation between the GUI and game logic.
