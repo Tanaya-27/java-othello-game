@@ -26,6 +26,11 @@ The project utilizes the provided `SimpleModel` class to manage the game's state
  
 - **Modular Design**: The classes are designed to be modular and reusable, allowing for easy testing and future enhancements. The project demonstrates understanding of object-oriented principles, object instantiation, and referencing.
   - **Compatibility**: The game is designed to be versatile, allowing interchangeable use of different controllers and views due to the dynamic main function.
+ 
+An example of the initial board state is as follows:
+<p align="center">
+  <img src="https://github.com/Tanaya-27/java-othello-game/assets/75646651/a3abd2e2-30c3-4309-bf06-4c0e76c7c589">
+</p>
 
 
 
